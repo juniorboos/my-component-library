@@ -26,7 +26,6 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
-          registry-url: 'https://npm.pkg.github.com/'
-          scope: '@juniorboos'
       - run: npm ci
+      - run: echo "registry=https://npm.pkg.github.com/@juniorboos" >> .npmrc
       - run: npm publish
