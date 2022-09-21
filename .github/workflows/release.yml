@@ -27,5 +27,5 @@ jobs:
         with:
           node-version: 16
       - run: npm ci
-      - run: echo "registry=https://npm.pkg.github.com/@juniorboos" >> .npmrc
+      - run: echo "@juniorboos:registry=https://npm.pkg.github.com" >> .npmrc
       - run: npm publish
