@@ -1,5 +1,5 @@
 {
-  "name": "my-component-library",
+  "name": "@juniorboos/my-component-library",
   "version": "0.1.1",
   "private": true,
   "main": "build/index.cjs.js",
