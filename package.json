@@ -73,5 +73,11 @@
     "prop-types": "^15.8.1",
     "webpack": "^5.74.0"
   },
-  "repository": "git@github.com:juniorboos/my-component-library.git"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juniorboos/my-component-library.git"
+  },
+  "publishConfig": {
+    "@juniorboos:registry": "https://npm.pkg.github.com"
+  }
 }
