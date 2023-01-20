@@ -2,7 +2,7 @@
   My component library
 </h1>
 
-<p align="center">This project serves as an example on how to create a React component library, you can see the step by step guide in this [Medium article](https://medium.com/@miltonboosj/how-to-setup-your-own-react-component-library-549c43c1adc9)</p>
+<p align="center">This project serves as an example on how to create a React component library, you can see the step by step guide in this <a href="https://medium.com/@miltonboosj/how-to-setup-your-own-react-component-library-549c43c1adc9">Medium article<a/></p>
 
 ## Built with
 
